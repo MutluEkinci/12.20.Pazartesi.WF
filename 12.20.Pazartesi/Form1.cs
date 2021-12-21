@@ -54,5 +54,10 @@ namespace _12._20.Pazartesi
         {
             timer1.Enabled = false;
         }
+
+        private void btnBaslat_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
     }
 }
